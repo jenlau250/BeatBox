@@ -1,0 +1,25 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<!--    First drawable: red circle-->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <solid
+                android:color="@color/red"/>
+        </shape>
+    </item>
+
+<!--    Second drawable: drawn on top of first, another oval with stroke of 4dp (creates ring)-->
+    <item>
+        <shape
+            android:shape="oval">
+
+            <stroke
+                android:width="4dp"
+                android:color="@color/dark_red"/>
+        </shape>
+    </item>
+
+</layer-list>
+
